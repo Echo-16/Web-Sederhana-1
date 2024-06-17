@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(moroccan-flower.png);
+}
+
+.container {
+  width: 960px;
+  background-color: #fff;
+  margin: auto;
+  border-left: 5px solid salmon;
+  border-right: 5px solid skyblue;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin: 20px 5px 0 0;
+}
+
+.header a {
+  text-decoration: none;
+  color: salmon;
+}
+
+.header a:hover {
+  color: skyblue;
+}
+
+.hero {
+  height: 300px;
+  background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29tcHV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  background-position: 0 -210px;
+  border-top: 6px solid salmon;
+  border-bottom: 6px solid skyblue;
+}
+
+.artikel {
+  width: 600px;   
+  padding: 25px;
+  box-sizing: border-box;
+} 
+
+.artikel {
+  float: left;
+}
+
+.artikel .penulis {
+  font-size: 12px;
+  
+}
+
+.artikel .penulis a {
+  text-decoration: none;
+  color: salmon;
+}
+
+.artikel .penulis a:hover {
+  color: blue;
+}
+
+.artikel p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: justify;
+} 
+
+/* Sidebar */
+.sidebar {
+  width: 300px;
+  padding: 25px 0;
+  float: right;
+}
+
+.sidebar h4 {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.sidebar img {
+  width: 100px;
+  float: left;
+  padding-right: 10px;
+}
+
+.sidebar p {
+  color: #666;
+  font-size: 16px;
+}
+
+/* Akhir Sidebar */
+
+.clear {
+  clear: both;
+}
+
+.footer {
+  background-color: black;
+  padding: 10px;
+
+}
+
+.footer p {
+  color: white;
+  text-align: center;
+}
